@@ -1,0 +1,22 @@
+{
+    "name": "yoga/sisabsi",
+    "description": "Sistem Informasi Akademik SISABSI",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "tecnickcom/tcpdf": "^6.8",
+        "spipu/html2pdf": "^5.2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sisabsi\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
